@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>Weather App</title>
+</head>
+<body>
+  <h1>Weather dashboard</h1>
+  <div class="container">
+    <div class="weather-input">
+      <h3>Enter your city name</h3>
+      <input class="city-input" type="text" placeholder="Example: Kolkata, Delhi, etc.">
+      <button class="search-button">Search</button>
+    </div>
+
+    <div class="weather-data">
+      <div class="current-weather">
+        <div class="details">
+          <h2>City Name</h2>
+          <h4>Temp: ___°C</h4>
+          <h4>Wind: ___ M/S</h4>
+          <h4>Humidity: ___%</h4>
+        </div>
+        <div class="icon">
+          <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="sun-image">
+          <h4>Moderate rain</h4>
+        </div>
+      </div>
+
+      <div class="days-forecast">
+        <h2>5-day forecast</h2>
+        <ul class="weather-cards">
+          <li class="card">
+            <h2>Day 1</h2>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="sun-image">
+            <h4>Temp: ___ °C</h4>
+            <h4>Wind: ___ M/S</h4>
+            <h4>Humidity: ___%</h4>
+          </li>
+          <li class="card">
+            <h2>Day 2</h2>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="sun-image">
+            <h4>Temp: ___ °C</h4>
+            <h4>Wind: ___ M/S</h4>
+            <h4>Humidity: ___%</h4>
+          </li>
+          <li class="card">
+            <h2>Day 3</h2>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="sun-image">
+            <h4>Temp: ___ °C</h4>
+            <h4>Wind: ___ M/S</h4>
+            <h4>Humidity: ___%</h4>
+          </li>
+          <li class="card">
+            <h2>Day 4</h2>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="sun-image">
+            <h4>Temp: ___ °C</h4>
+            <h4>Wind: ___ M/S</h4>
+            <h4>Humidity: ___%</h4>
+          </li>
+          <li class="card">
+            <h2>Day 5</h2>
+            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="sun-image">
+            <h4>Temp: ___ °C</h4>
+            <h4>Wind: ___ M/S</h4>
+            <h4>Humidity: ___%</h4>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
